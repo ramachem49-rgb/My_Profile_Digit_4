@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  letter-spacing: 4px;
+  text-shadow: 0 0 10px white;
+}
+
+.subtitle {
+  color: #aaa;
+}
+
+.red {
+  color: red;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.box {
+  border: 2px solid white;
+  padding: 35px 20px 25px;
+  margin: 30px auto;
+  max-width: 500px;
+  position: relative;
+}
+
+.box-title {
+  position: absolute;
+  top: -0.00px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  padding: 10px 0px 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid white; /* ⭐ បន្ទាត់ពណ៌សក្រោមអក្សរ */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.footer {
+  color: gray;
+  margin-top: 40px;
+}
